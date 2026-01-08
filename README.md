@@ -95,7 +95,7 @@ Donde:
 - Interfaz gráfica moderna en **modo oscuro**
 
 ---
-## Validadciones y mensajes de alerta 
+## Validaciones y mensajes de alerta 
 El sistema incorpora mensaje de alerta que noctifican al usuario cuando:
 - Se ingresan caracteres no númericos.
 - El margen de error no se encuentra ente 1% y 99%.
