@@ -141,9 +141,12 @@ python main.py
 4. Introduce la desviación estándar o proporción.
 5. Selecciona el tipo de población.
 6. Ejecuta el análisis y revisa los resultados.
-   
 ---
 
+## Ejemplos 
+![Ejemplo de Uso](Ejemplo.png)
+
+---
 ## Conclusión 
 Este proyecto demuestra que la correcta determinación del tamaño de muestra es clave para 
 obtener inferencias estadísticas confiables. La aplicación evidencia la relación entre nivel
