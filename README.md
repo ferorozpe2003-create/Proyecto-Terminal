@@ -89,9 +89,20 @@ Donde:
 - Niveles de confianza: **90%, 95% y 99%**
 - Manejo de **población infinita y finita**
 - Validación de datos de entrada
+- **Mensajes de alerta y advertencia** para cada acción incorrecta del usuario 
 - Generación de **reporte técnico**
 - **Gráfica de análisis de sensibilidad**
 - Interfaz gráfica moderna en **modo oscuro**
+
+---
+## Validadciones y mensajes de alerta 
+El sistema incorpora mensaje de alerta que noctifican al usuario cuando:
+- Se ingresan caracteres no númericos.
+- El margen de error no se encuentra ente 1% y 99%.
+- El tamaño de la población no es válido o excede límites razonables.
+- Se dejan campos obligatorios vácios.
+
+ Estas alertas permiten prevenir cálculos incorrectos y mejorar la experiencia de uso.
 
 ---
 
