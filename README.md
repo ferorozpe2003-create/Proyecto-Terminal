@@ -143,8 +143,24 @@ python main.py
 6. Ejecuta el análisis y revisa los resultados.
 ---
 
-## Ejemplos 
-![Ejemplo de Uso](Ejemplo.png)
+## Ejemplo 1 
+1. Selecciona ESTIMACIÓN MEDIA
+2. Nivel de confianza = 90
+3. Margen de error = 0.03
+4. Desviación estándar = 2
+5. Tipo de población = FINITA
+   5.1 Tamaño Poblacion = 20
+![Ejemplo de Uso](imagenes/Ejemplo2.png)
+
+---
+## Ejemplo 2
+1. Selecciona ESTIMACIÓN PROPORCIÓN
+2. Nivel de confianza = 95
+3. Margen de error = 0.001
+4. Desviación estándar = 23
+5. Tipo de población = FINITA
+   5.1 Tamaño Poblacion = 30
+![Ejemplo de Uso](imagenes/Ejemplo3.png)
 
 ---
 ## Conclusión 
