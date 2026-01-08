@@ -163,6 +163,15 @@ python main.py
 ![Ejemplo de Uso](imagenes/Ejemplo3.png)
 
 ---
+## Ejemplo 3
+1. Selecciona ESTIMACIÓN MEDIA
+2. Nivel de confianza = 95
+3. Margen de error = 1
+4. Desviación estándar = 10
+5. Tipo de población = INFINITA
+![Ejemplo de Uso](imagenes/Ejemplo.png)
+
+---
 ## Conclusión 
 Este proyecto demuestra que la correcta determinación del tamaño de muestra es clave para 
 obtener inferencias estadísticas confiables. La aplicación evidencia la relación entre nivel
