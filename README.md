@@ -1,3 +1,48 @@
+<div align="center">
+
+# INSTITUTO POLITÉCNICO NACIONAL  
+## ESCUELA SUPERIOR DE CÓMPUTO  
+
+<br><br>
+
+## PROYECTO TERMINAL  
+
+<br>
+
+# **README**  
+## *Calculadora de Tamaño de Muestra y Margen de Error para la Planeación de Estudios*
+
+<br>
+
+### Para la asignatura  
+### **Probabilidad y Estadística 26-1**
+
+<br><br>
+
+### **Presentan:**  
+**Mendoza Castillo Alejandra**  
+**Muñoz Orozpe Fernanda**
+
+<br>
+
+### **Grupo:** 4CM1  
+
+<br><br>
+
+### **Maestro:**  
+**David Correa Coyac**
+
+<br><br>
+
+### **Fecha de entrega:**  
+**8 de enero de 2026**
+
+</div>
+
+---
+
+<br><br>
+
 # Proyecto-Terminal
 Calculadora de tamaño de muestra y margen de error para la planeación de estudios    
 # Sistema de Planificación Estadística
@@ -21,4 +66,95 @@ Proporcionar una herramienta que permita:
 ## Modelos Estadísticos Implementados
 
 ### Estimación de la Media
+n = (Z · σ / E)²
+### Estimación de la proporción
+n = (Z² · p(1 − p)) / E²
+### Ajuste por Población Finita (Cochran)
+n_f = n / (1 + n / N)
+
+Donde:
+- **Z**: Valor crítico según el nivel de confianza  
+- **E**: Margen de error  
+- **σ**: Desviación estándar  
+- **p**: Proporción estimada  
+- **N**: Tamaño de la población  
+
+---
+
+## Funcionalidades
+- Estimación de **media** y **proporción**
+- Niveles de confianza: **90%, 95% y 99%**
+- Manejo de **población infinita y finita**
+- Validación de datos de entrada
+- Generación de **reporte técnico**
+- **Gráfica de análisis de sensibilidad**
+- Interfaz gráfica moderna en **modo oscuro**
+
+---
+
+## Interfaz del Sistema
+La aplicación cuenta con:
+- Panel lateral de configuración
+- Panel central con:
+  - Resultados del análisis
+  - Visualización gráfica del tamaño de muestra
+
+---
+
+## Requisitos
+- Python **3.10 o superior**
+- Librerías:
+  - `tkinter`
+  - `customtkinter`
+  - `matplotlib`
+  - `numpy`
+
+---
+
+## Instalación
+1. Clona el repositorio:
+```bash
+git clone https://github.com/tu-usuario/tu-repositorio.git
+```
+2. Accede al directorio del proyecto:
+```bash
+cd tu-repositorio
+```
+3. Instala las dependencias:
+```bash
+pip install customtkinter matplotlib numpy
+```
+
+---
+
+##  Ejecución
+Ejecuta el archivo principal:
+```bash
+python main.py
+```
+---
+
+## Ejemplo de Uso
+1. Selecciona el tipo de estimación.
+2. Define el nivel de confianza.
+3. Ingresa el margen de error.
+4. Introduce la desviación estándar o proporción.
+5. Selecciona el tipo de población.
+6. Ejecuta el análisis y revisa los resultados.
+   
+---
+
+## Conclusión 
+Este proyecto demuestra que la correcta determinación del tamaño de muestra es clave para 
+obtener inferencias estadísticas confiables. La aplicación evidencia la relación entre nivel
+de confianza, margen de error y tamaño de muestra, así como la importancia del ajuste por 
+población finita para optimizar estudios reales. La visualización del análisis de sensibilidad
+apoya la toma de decisiones informadas en la planeación de investigaciones.
+
+---
+### Autores 
+-Mendoza Castillo Alejandra 
+-Muñoz Orozpe Fernanda 
+Proyecto Terminal - Planeación de estudios estadísticos
+
 
