@@ -152,7 +152,7 @@ python main.py
 3. Margen de error = 0.03
 4. Desviación estándar = 2
 5. Tipo de población = FINITA
-   5.1 Tamaño Poblacion = 20
+6. Tamaño Poblacion = 20
 ![Ejemplo de Uso](imagenes/Ejemplo2.png)
 
 ---
@@ -162,7 +162,7 @@ python main.py
 3. Margen de error = 0.001
 4. Desviación estándar = 23
 5. Tipo de población = FINITA
-   5.1 Tamaño Poblacion = 30
+6. Tamaño Poblacion = 30
 ![Ejemplo de Uso](imagenes/Ejemplo3.png)
 
 ---
