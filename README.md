@@ -1,8 +1,10 @@
 <div align="center">
-
+<h2>
+  <img src="imagenes/IPN.png" width="40">
 # INSTITUTO POLITÉCNICO NACIONAL  
 ## ESCUELA SUPERIOR DE CÓMPUTO  
-
+  <img src="imagenes/ESCOM1.png" width="40">
+</h2>
 <br><br>
 
 ## PROYECTO TERMINAL  
